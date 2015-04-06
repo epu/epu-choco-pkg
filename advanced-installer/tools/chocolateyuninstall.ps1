@@ -1,6 +1,4 @@
-﻿$ErrorActionPreference = 'Stop';
-$packageName = 'advanced-installer'
-$productId = '{045A6530-6BCD-49DD-BE52-4DB77958C825}'
+﻿$productId = '{045A6530-6BCD-49DD-BE52-4DB77958C825}'
 $silentArgs = '/qn /norestart REMOVE=ALL REBOOT=ReallySuppress'
 $validExitCodes = @(0)
 try {
