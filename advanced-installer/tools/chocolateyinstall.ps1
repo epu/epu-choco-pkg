@@ -1,6 +1,7 @@
 $ErrorActionPreference = 'Stop';
 $packageName = 'advanced-installer'
-$registryUninstallerKeyName = 'advanced-installer' #ensure this is the value in the registry
+#$LCID = (Get-Culture).LCID
+#$registryUninstallerKeyName = '{045A6530-6BCD-49DD-BE52-4DB77958C825}'
 $installerType = 'msi'
 $url = 'http://www.advancedinstaller.com/downloads/10.6/advinst.msi'
 $silentArgs = '/qn /norestart'
