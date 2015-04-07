@@ -12,18 +12,20 @@
     <description>The GNU Core Utilities are the basic file, shell and text manipulation utilities of the GNU operating system.
 These are the core utilities which are expected to exist on every operating system.
 
-While the source, binaries, installers and signatures come from older builds on sourceforge, additional information about the coreutils package can be found on the [coreutils homepage](http://www.gnu.org/software/coreutils/)
+Source, pre-built binaries, installers and md5 signatures are available as [gnuwin32 sourceforge files](http://sourceforge.net/projects/gnuwin32/files/coreutils/5.3.0/). They are presented through this nuget package without modification.
+
+Additional information about the coreutils package can be found on the [coreutils homepage](http://www.gnu.org/software/coreutils/).
+
+Based on the text of the [coreutils FAQ](http://www.gnu.org/software/coreutils/faq/coreutils-faq.html) and this version's release date and source copyrights asserted in 2004 and 2005, copyright is attributed to FSF which at that time required new attributions to be assigned to FSF. A cursoury search through the source finds that individual author copyright text is asserted in the source tree between 1984-2005.
+
+Credit also unknown authors, since the AUTHORS file in source does not list every contributor for each utility, and the maintainer of the gnuwin32 tools.
     </description>
     <projectUrl>http://gnuwin32.sourceforge.net/packages/coreutils.htm</projectUrl>
     <tags>gnuwin32-coreutils.install coreutils gnuwin32 install admin</tags>
-    <copyright>Copyright © Free Software Foundation, Inc. 1984-2005</copyright>
+    <copyright>Copyright © 2005 Free Software Foundation, Inc.</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>http://cdn.rawgit.com/epu/epu-choco-pkg/master/icons/coreutils.install.png</iconUrl>-->
-    <!--<dependencies>
-      <dependency id="" version="__VERSION__" />
-      <dependency id="" />
-    </dependencies>-->
+    <iconUrl>http://cdn.rawgit.com/epu/epu-choco-pkg/master/gnuwin32-coreutils.install/icons/gnu.png</iconUrl>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
