@@ -3,16 +3,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
-    <id>coreutils.install</id>
-    <title>coreutils.install (Install)</title>
+    <id>gnuwin32-coreutils.install</id>
+    <title>CoreUtils for Windows (GnuWin32)</title>
     <version>5.3.0</version>
     <authors>__REPLACE_AUTHORS_OF_SOFTWARE__</authors>
     <owners>epu</owners>
-    <summary>__REPLACE__</summary>
-    <description>__REPLACE__ 
+    <summary>GNU core utilities</summary>
+    <description>The GNU Core Utilities are the basic file, shell and text manipulation utilities of the GNU operating system.
+These are the core utilities which are expected to exist on every operating system.
+
+While the source, binaries, installers and signatures come from older builds on sourceforge, additional information about the coreutils package can be found on the [coreutils homepage](http://www.gnu.org/software/coreutils/)
     </description>
-    <projectUrl></projectUrl>
-    <tags>coreutils.install admin</tags>
+    <projectUrl>http://gnuwin32.sourceforge.net/packages/coreutils.htm</projectUrl>
+    <tags>gnuwin32-coreutils.install coreutils gnuwin32 install admin</tags>
     <copyright></copyright>
     <licenseUrl></licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
