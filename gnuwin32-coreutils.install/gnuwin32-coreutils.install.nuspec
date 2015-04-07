@@ -6,7 +6,7 @@
     <id>gnuwin32-coreutils.install</id>
     <title>CoreUtils for Windows (GnuWin32)</title>
     <version>5.3.0</version>
-    <authors>__REPLACE_AUTHORS_OF_SOFTWARE__</authors>
+    <authors>Arnold Robbins,Colin Plumb,David Ihnat,David M. Ihnat,David MacKenzie,François Pinard,H. Peter Anvin,Ian Lance Taylor,Jay Lepreau,Jim Kingdon,Jim Meyering,Joseph Arceneaux,Kaveh Ghazi,Kayvan Aghaiepour,Larry McVoy,Mark Kettenis,Michael Meskes,Michael Stone,Mike Haertel,Mike Parker,Paul Eggert,Paul Rubin,Pete TerMaat,Q. Frank Xia,Randy Smith,Richard M. Stallman,Richard Mlynarik,Roland Huebner,Roland McGrath,Ross Paterson,Scott Bartram,Scott Miller,Stuart Kemp,Torbjorn Granlund,Ulrich Drepper,unknown</authors>
     <owners>epu</owners>
     <summary>GNU core utilities</summary>
     <description>The GNU Core Utilities are the basic file, shell and text manipulation utilities of the GNU operating system.
@@ -16,8 +16,8 @@ While the source, binaries, installers and signatures come from older builds on 
     </description>
     <projectUrl>http://gnuwin32.sourceforge.net/packages/coreutils.htm</projectUrl>
     <tags>gnuwin32-coreutils.install coreutils gnuwin32 install admin</tags>
-    <copyright></copyright>
-    <licenseUrl></licenseUrl>
+    <copyright>Copyright © Free Software Foundation, Inc. 1984-2005</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<iconUrl>http://cdn.rawgit.com/epu/epu-choco-pkg/master/icons/coreutils.install.png</iconUrl>-->
     <!--<dependencies>
