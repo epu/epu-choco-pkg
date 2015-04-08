@@ -2,7 +2,7 @@
 $packageName = 'gnuwin32-coreutils.install'
 $registryUninstallerKeyName = 'CoreUtils-5.3.0_is1' # Is the suffix _is1 standard?
 $installerType = 'exe'
-$silentArgs = '/SILENT'
+$silentArgs = '/VERYSILENT /NORESTART'
 $validExitCodes = @(0)
 $osBitness = Get-ProcessorBits
 if ($osBitness -eq 64) {
