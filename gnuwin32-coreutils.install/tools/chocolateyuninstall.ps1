@@ -1,22 +1,13 @@
-﻿#NOTE: Please remove any commented lines to tidy up prior to releasing the package, including this one
-
-# stop on all errors
-$ErrorActionPreference = 'Stop';
-
-# Auto Uninstaller should be able to detect and handle registry uninstalls (if it is turned on, it is in preview for 0.9.9).
-
-$packageName = 'coreutils.install'
-$registryUninstallerKeyName = 'coreutils.install' #ensure this is the value in the registry
-$installerType = 'EXE'
-$silentArgs = '/S'
+﻿$ErrorActionPreference = 'Stop';
+$packageName = 'gnuwin32-coreutils.install'
+$registryUninstallerKeyName = 'CoreUtils-5.3.0_is1' # Is the suffix _is1 standard?
+$installerType = 'exe'
+$silentArgs = '/SILENT'
 $validExitCodes = @(0)
-
-#$osBitness = Get-ProcessorBits
- 
-#if ($osBitness -eq 64) {
-#  $file = (Get-ItemProperty -Path "hklm:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\$registryUninstallerKeyName").UninstallString
-#} else {
-#  $file = (Get-ItemProperty -Path "hklm:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$registryUninstallerKeyName").UninstallString
-#} 
-#	
-#Uninstall-ChocolateyPackage -PackageName $packageName -FileType $installerType -SilentArgs $silentArgs -validExitCodes $validExitCodes -File $file
+$osBitness = Get-ProcessorBits
+if ($osBitness -eq 64) {
+  $file = (Get-ItemProperty -Path "hklm:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\$registryUninstallerKeyName").UninstallString
+} else {
+  $file = (Get-ItemProperty -Path "hklm:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$registryUninstallerKeyName").UninstallString
+} 
+Uninstall-ChocolateyPackage -PackageName $packageName -FileType $installerType -SilentArgs $silentArgs -validExitCodes $validExitCodes -File $file
