@@ -3,8 +3,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
-    <id>gnuwin32-coreutils.install</id>
-    <title>GnuWin32 CoreUtils for Windows (Install)</title>
+    <id>gnuwin32-coreutils.portable</id>
+    <title>GnuWin32 CoreUtils for Windows (Portable)</title>
     <version>5.3.0</version>
     <authors>Arnold Robbins,Colin Plumb,David Ihnat,David M. Ihnat,David MacKenzie,François Pinard,H. Peter Anvin,Ian Lance Taylor,Jay Lepreau,Jim Kingdon,Jim Meyering,Joseph Arceneaux,Kaveh Ghazi,Kayvan Aghaiepour,Larry McVoy,Mark Kettenis,Michael Meskes,Michael Stone,Mike Haertel,Mike Parker,Paul Eggert,Paul Rubin,Pete TerMaat,Q. Frank Xia,Randy Smith,Richard M. Stallman,Richard Mlynarik,Roland Huebner,Roland McGrath,Ross Paterson,Scott Bartram,Scott Miller,Stuart Kemp,Torbjorn Granlund,Ulrich Drepper,unknown</authors>
     <owners>epu</owners>
