@@ -7,15 +7,11 @@ $checksum = 'aa7ce7f1f2befb930fb156bddea41bc4'
 $checksumType = 'md5'
 Install-ChocolateyZipPackage "$packageName" "$url" "$toolsDir" -checksum $checksum -checksumType $checksumType
 
-#$binRoot = Get-BinRoot
-#$gitInstallDir = Join-Path $binRoot 'git'
-#$deprecatedInstallDir = Join-Path $env:systemdrive 'git'
-#$files = get-childitem $installDir -include *.exe -recurse
-#foreach ($file in $files) {
-#  if (!($file.Name.Contains("git.exe")) -and !($file.Name.Contains("ssh"))) {
-#    #generate an ignore file
-#    New-Item "$file.ignore" -type file -force | Out-Null
-#  }
-#}
-#if (Test-Path $deprecatedInstallDir) { Remove-Item $deprecatedInstallDir -recurse -force -ErrorAction SilentlyContinue }
-#if (Test-Path $gitInstallDir) { Remove-Item $gitInstallDir -recurse -force -ErrorAction SilentlyContinue }
+# If we make the lib iconv deps another choco package, they'll never install into this package. :/
+# I can either shove all the gnuwin32 into a shared directory and self-manage the individual file removals,
+# I can just also extract and download the deps zip here,
+# or I can try to manually shim things explicitly setting PATH for shims?
+
+$url = 'http://sourceforge.net/projects/gnuwin32/files/coreutils/5.3.0/coreutils-5.3.0-dep.zip'
+$checksum = '6cf05855b6902dffa2cf4ba8b90e82e6'
+Install-ChocolateyZipPackage "$packageName" "$url" "$toolsDir" -checksum $checksum -checksumType $checksumType
