@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>premake.portable</id>
+    <title>premake (Portable)</title>
+    <version>4.3</version>
+    <authors>Jason Perkins</authors>
+    <owners>epu</owners>
+    <summary>cross-platform build script generator</summary>
+    <description># Powerfully simple build configuration.
+
+Describe your software project just once, using Premake's simple and easy to read syntax, and build it everywhere.
+
+Generate project files for Visual Studio, GNU Make, Xcode, Code::Blocks, and more across Windows, Mac OS X, and Linux. Use the full featured Lua scripting engine to make build configuration tasks a breeze.
+
+[premake-4.x manual](https://github.com/premake/premake-4.x/wiki)
+    </description>
+    <projectUrl>https://premake.github.io</projectUrl>
+    <tags>premake.portable premake4 tool commandline build makefile generate project</tags>
+    <copyright>Copyright © 2002-2010 Jason Perkins and individual contributors</copyright>
+    <licenseUrl>https://cdn.rawgit.com/premake/premake-4.x/cc50d84dfa5e0791a83549bb2a46a04fcf246e5c/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/premake/premake.github.io/37e4fceb52b0e6ab1da723628f4539cc21a6be06/premake-logo.png</iconUrl>
+    <releaseNotes>https://cdn.rawgit.com/premake/premake-4.x/1b8a1608ac0298de74fd42ce0e30538f2346bedf/CHANGES.txt</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
