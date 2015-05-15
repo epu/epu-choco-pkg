@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>gnuwin32-make.portable</id>
+    <title>GnuWin32 make for Windows (Portable)</title>
+    <version>3.81</version>
+    <authors>Roland McGrath,Paul D. Smith,Boris Kolpackov,Richard M. Stallman,Bob Chassell,Melissa Weisshaus,Klaus Kaempf,Hartmut Becker,John W. Eaton,Martin Zinser,Aaron Digulla,DJ Delorie,Rob Tulloh,Eli Zaretskii,Jonathan Grant,Andreas Beuning,Earnie Boyd,Janet Carson,Howard Chu,Paul Eggert,Klaus Heinz,Michael Joosten,Jim Kelton,David Lubbren,Tim Magill,Markus Mauhart,Greg McGary,Thomas Riedl,Han-Wen Nienhuys,Andreas Schwab,Carl Staelin,Ian Stewartson,unknown</authors>
+    <owners>epu</owners>
+    <summary>GNU make</summary>
+    <description>GNU make utility to maintain groups of programs
+
+Make is a tool which controls the generation of executables and other non-source files of a program from the program's source files. Make gets its knowledge of how to build your program from a file called the makefile, which lists each of the non-source files and how to compute it from other files. When you write a program, you should write a makefile for it, so that it is possible to use Make to build and install the program.
+
+Source, pre-built binaries, installers and md5 signatures are available as [gnuwin32 sourceforge files](http://sourceforge.net/projects/gnuwin32/files/make/3.81/). They are presented through this nuget package without modification.
+
+Additional information about the coreutils package can be found on the [make homepage](http://www.gnu.org/software/make/).
+
+Based on the AUTHORS file, this version's source asserts copyright each year 1997 through 2006, inclusive.
+
+Credit also unknown authors, since the AUTHORS file in source does not list the maintainer of the gnuwin32 tools.
+    </description>
+    <projectUrl>http://gnuwin32.sourceforge.net/packages/make.htm</projectUrl>
+    <tags>gnuwin32-make.portable make gnuwin32 portable</tags>
+    <copyright>Copyright © 1997-2006 Free Software Foundation, Inc.</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://cdn.rawgit.com/epu/epu-choco-pkg/master/gnuwin32-coreutils.install/icons/gnu.png</iconUrl>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
