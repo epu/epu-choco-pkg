@@ -6,7 +6,7 @@
     <id>gnuwin32-coreutils.portable</id>
     <title>GnuWin32 CoreUtils for Windows (Portable)</title>
     <version>5.3.0</version>
-    <authors>Arnold Robbins,Colin Plumb,David Ihnat,David M. Ihnat,David MacKenzie,François Pinard,H. Peter Anvin,Ian Lance Taylor,Jay Lepreau,Jim Kingdon,Jim Meyering,Joseph Arceneaux,Kaveh Ghazi,Kayvan Aghaiepour,Larry McVoy,Mark Kettenis,Michael Meskes,Michael Stone,Mike Haertel,Mike Parker,Paul Eggert,Paul Rubin,Pete TerMaat,Q. Frank Xia,Randy Smith,Richard M. Stallman,Richard Mlynarik,Roland Huebner,Roland McGrath,Ross Paterson,Scott Bartram,Scott Miller,Stuart Kemp,Torbjorn Granlund,Ulrich Drepper,unknown</authors>
+    <authors>Arnold Robbins,Colin Plumb,David M. Ihnat,David MacKenzie,François Pinard,H. Peter Anvin,Ian Lance Taylor,Jay Lepreau,Jim Kingdon,Jim Meyering,Joseph Arceneaux,Kaveh Ghazi,Kayvan Aghaiepour,Larry McVoy,Mark Kettenis,Michael Meskes,Michael Stone,Mike Haertel,Mike Parker,Paul Eggert,Paul Rubin,Pete TerMaat,Q. Frank Xia,Randy Smith,Richard M. Stallman,Richard Mlynarik,Roland Huebner,Roland McGrath,Ross Paterson,Scott Bartram,Scott Miller,Stuart Kemp,Torbjorn Granlund,Ulrich Drepper,unknown</authors>
     <owners>epu</owners>
     <summary>GNU core utilities</summary>
     <description>The GNU Core Utilities are the basic file, shell and text manipulation utilities of the GNU operating system.
@@ -16,12 +16,12 @@ Source, pre-built binaries, installers and md5 signatures are available as [gnuw
 
 Additional information about the coreutils package can be found on the [coreutils homepage](http://www.gnu.org/software/coreutils/).
 
-Based on the text of the [coreutils FAQ](http://www.gnu.org/software/coreutils/faq/coreutils-faq.html) and this version's release date and source copyrights asserted in 2004 and 2005, copyright is attributed to FSF which at that time required new attributions to be assigned to FSF. A cursoury search through the source finds that individual author copyright text is asserted in the source tree between 1984-2005.
+Based on the text of the [coreutils FAQ](http://www.gnu.org/software/coreutils/faq/coreutils-faq.html) and this version's release date and source copyrights asserted in 2004 and 2005, copyright is attributed to FSF which at that time required new attributions to be assigned to FSF. A cursory search through the source finds that individual author copyright text is asserted in the source tree between 1984-2005.
 
 Credit also unknown authors, since the AUTHORS file in source does not list every contributor for each utility, and the maintainer of the gnuwin32 tools.
     </description>
     <projectUrl>http://gnuwin32.sourceforge.net/packages/coreutils.htm</projectUrl>
-    <tags>gnuwin32-coreutils.install coreutils gnuwin32 install admin</tags>
+    <tags>gnuwin32-coreutils.portable coreutils gnuwin32 portable</tags>
     <copyright>Copyright © 2005 Free Software Foundation, Inc.</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
