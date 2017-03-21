@@ -22,6 +22,7 @@ Based on the AUTHORS file, this version's source asserts copyright each year 199
 Credit also unknown authors, since the AUTHORS file in source does not list the maintainer of the gnuwin32 tools.
     </description>
     <projectUrl>http://gnuwin32.sourceforge.net/packages/make.htm</projectUrl>
+    <packageSourceUrl>https://github.com/epu/epu-choco-pkg</packageSourceUrl>
     <tags>gnuwin32-make.portable make gnuwin32 portable</tags>
     <copyright>Copyright © 1997-2006 Free Software Foundation, Inc.</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
