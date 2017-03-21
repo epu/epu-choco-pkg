@@ -12,6 +12,7 @@
     <description>Advanced Installer is a powerful, yet easy to use, Windows Installer authoring tool which helps you create .MSI installs in minutes.
     </description>
     <projectUrl>https://www.advancedinstaller.com</projectUrl>
+    <packageSourceUrl>https://github.com/epu/epu-choco-pkg</packageSourceUrl>
     <tags>advanced-installer advinst caphyon admin</tags>
     <copyright></copyright>
     <licenseUrl>https://www.advancedinstaller.com/eula.html</licenseUrl>
