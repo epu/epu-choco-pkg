@@ -21,6 +21,7 @@ Based on the text of the [coreutils FAQ](http://www.gnu.org/software/coreutils/f
 Credit also unknown authors, since the AUTHORS file in source does not list every contributor for each utility, and the maintainer of the gnuwin32 tools.
     </description>
     <projectUrl>http://gnuwin32.sourceforge.net/packages/coreutils.htm</projectUrl>
+    <packageSourceUrl>https://github.com/epu/epu-choco-pkg</packageSourceUrl>
     <tags>gnuwin32-coreutils.install coreutils gnuwin32 install admin</tags>
     <copyright>Copyright © 2005 Free Software Foundation, Inc.</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
