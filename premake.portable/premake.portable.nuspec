@@ -18,6 +18,7 @@ Generate project files for Visual Studio, GNU Make, Xcode, Code::Blocks, and mor
 [premake-4.x manual](https://github.com/premake/premake-4.x/wiki)
     </description>
     <projectUrl>https://premake.github.io</projectUrl>
+    <packageSourceUrl>https://github.com/epu/epu-choco-pkg</packageSourceUrl>
     <tags>premake.portable premake4 tool commandline build makefile generate project</tags>
     <copyright>Copyright © 2002-2010 Jason Perkins and individual contributors</copyright>
     <licenseUrl>https://cdn.rawgit.com/premake/premake-4.x/cc50d84dfa5e0791a83549bb2a46a04fcf246e5c/LICENSE.txt</licenseUrl>
