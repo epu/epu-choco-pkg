@@ -1,10 +1,13 @@
-$ErrorActionPreference = 'Stop';
-$packageName = 'advanced-installer'
-$installerType = 'msi'
-$url = 'http://www.advancedinstaller.com/downloads/10.6/advinst.msi'
-$silentArgs = '/qn /norestart'
-$validExitCodes = @(0)
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$checksum = '3a829b06634f015076fe6b9a0cc13f1986b9c23c'
-$checksumType = 'sha1'
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" -validExitCodes $validExitCodes -checksum $checksum -checksumType $checksumType
+﻿$ErrorActionPreference = 'Stop';
+$toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+
+$packageArgs = @{
+	packageName    = 'advanced-installer'
+	installerType  = 'MSI'
+	url            = 'https://www.advancedinstaller.com/downloads/16.6.1/advinst.msi'
+	silentArgs     = '/qn /norestart'
+	validExitCodes = @(0)
+	checksum       = '4e6be0fc03949c53f28c343be9665abd46986e33eb0262b7c3cb6e1c16ddb7af'
+	checksumType   = 'sha256'
+}
+Install-ChocolateyPackage @packageArgs
